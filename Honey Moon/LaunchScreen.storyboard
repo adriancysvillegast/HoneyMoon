@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgound" translatesAutoresizingMaskIntoConstraints="NO" id="NzX-pP-Nah">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-honeymoon-app" translatesAutoresizingMaskIntoConstraints="NO" id="aaH-Ow-ZoR">
+                                <rect key="frame" x="76.666666666666686" y="362" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="8WM-TW-l2e"/>
+                                    <constraint firstAttribute="height" constant="128" id="Q5f-hu-sFw"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="aaH-Ow-ZoR" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="6CB-Ub-K7x"/>
+                            <constraint firstAttribute="trailing" secondItem="NzX-pP-Nah" secondAttribute="trailing" id="Cso-Pe-8Ia"/>
+                            <constraint firstAttribute="bottom" secondItem="NzX-pP-Nah" secondAttribute="bottom" id="IjI-WW-bNq"/>
+                            <constraint firstItem="NzX-pP-Nah" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="hyE-Fg-86p"/>
+                            <constraint firstItem="aaH-Ow-ZoR" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="oWf-mD-WqK"/>
+                            <constraint firstItem="NzX-pP-Nah" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="rAV-X9-aou"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="backgound" width="2048" height="2049"/>
+        <image name="logo-honeymoon-app" width="280" height="129"/>
+    </resources>
+</document>
